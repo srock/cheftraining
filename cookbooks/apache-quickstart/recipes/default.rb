@@ -13,7 +13,7 @@ service "apache2" do
 	action :start
 end
 
-template "/var/www/html/index.html" do
+template "/var/www/index.html" do
 	source "index.html.erb"
 	owner "root"
 	group "root"
