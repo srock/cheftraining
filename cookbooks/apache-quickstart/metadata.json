@@ -6,6 +6,19 @@
   "recommendations": {
   },
   "attributes": {
+    "quickstart/name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "apache-quickstart::default"
+      ],
+      "description": "Yarr this be where you put in your name",
+      "display_name": "Your name"
+    }
   },
   "suggestions": {
   },
