@@ -4,3 +4,5 @@ license          "All rights reserved"
 description      "Installs/Configures apache-quickstart"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version          "0.0.1"
+
+recipe "apache-quickstart::default", "This be the captain of the pirate ship, matey"
