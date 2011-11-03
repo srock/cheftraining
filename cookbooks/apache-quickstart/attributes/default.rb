@@ -1,1 +1,1 @@
-default[:quickstart][:name] = "Captain Shane O'Toole"
+default[:quickstart][:name] = "Captain Shane"
